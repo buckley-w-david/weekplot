@@ -1,1 +1,13 @@
 .vscode
+
+*.pyc
+*.egg-info
+dist/
+build/
+
+.Python
+
+bin/
+lib/
+include/
+.python-version

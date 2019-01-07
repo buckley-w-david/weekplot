@@ -1,0 +1,112 @@
+- 
+  name: Breakfast
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "07:45"
+  end: "08:15"
+  color: lightgreen
+
+- 
+  name: Breakfast
+  days:
+    - Sat
+    - Sun
+  start: "10:00"
+  end: "10:30"
+  color: "lightgreen"
+
+-
+  name: Work
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "08:45"
+  end: "12:30"
+  color: cornflowerblue
+
+-
+  name: Walking
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "12:30"
+  end: "13:00"
+  color: darkorange
+
+-
+  name: Lunch
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "13:00"
+  end: "13:30"
+  color: lightgreen
+
+-
+  name: Work
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "13:30"
+  end: "17:15"
+  color: cornflowerblue
+
+-
+  name: Body Weight Training
+  days:
+  - Mon
+  - Wed
+  - Fri
+  start: "17:30"
+  end: "18:30"
+  color: darkorange
+
+-
+  name: Swimming
+  days:
+  - Sun
+  start: "08:30"
+  end: "09:30"
+  color: darkorange
+
+-
+  name: Master Thesis
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  - Sat
+  - Sun
+  start: "19:30"
+  end: "21:30"
+  color: mediumpurple
+
+-
+  name: Dinner
+  days:
+  - Mon
+  - Tue
+  - Wed
+  - Thu
+  - Fri
+  start: "18:45"
+  end: "19:15"
+  color: lightgreen

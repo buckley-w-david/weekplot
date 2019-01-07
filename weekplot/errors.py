@@ -1,0 +1,2 @@
+class WeekplotError(Exception):
+    pass

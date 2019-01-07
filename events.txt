@@ -1,49 +1,34 @@
-Breakfast
-Mon, Tue, Wed, Thu, Fri
-07:45 - 08:15
-lightgreen
-
-Breakfast
-Sat, Sun
-10:00 - 10:30
-lightgreen
-
-Work
-Mon, Tue, Wed, Thu, Fri
-08:45 - 12:30
+CIS*4450
+Tue, Thu
+17:30 - 18:50
 cornflowerblue
 
-Walking
-Mon, Tue, Wed, Thu, Fri
-12:30 - 13:00
-darkorange
-
-Lunch
-Mon, Tue, Wed, Thu, Fri
-13:00 - 13:30
-lightgreen
-
-Work
-Mon, Tue, Wed, Thu, Fri
-13:30 - 17:15
-cornflowerblue
-
-Body Weight Training
+CIS*4820
 Mon, Wed, Fri
-17:30 - 18:30
-darkorange
+14:30 - 15:20
+cornflowerblue
 
-Swimming
-Sun
-08:30 - 09:30
-darkorange
+CIS*4820
+Mon
+16:30 - 17:20
+lightgreen
 
-Master Thesis
-Mon, Tue, Wed, Thu, Fri, Sat, Sun
-19:30 - 21:30
-mediumpurple
+PHIL*2110
+Tue, Thu
+11:30 - 12:50
+cornflowerblue
 
-Dinner
-Mon, Tue, Wed, Thu, Fri
-18:45 - 19:15
+MATH*3510
+Mon, Wed, Fri
+10:30 - 11:20
+cornflowerblue
+
+CIS*4720
+Tue, Thu
+14:30 - 15:50
+cornflowerblue
+
+CIS*4720
+Tue
+16:30 - 17:20
 lightgreen
