@@ -47,20 +47,23 @@ def draw(event_files: typing.List[str], title: str) -> None:
     for filename in event_files:
         with open(filename, 'r') as fp:
             content = fp.read()
-            config = yaml.safe_load(content)
-            try:
-                if isinstance(config, str):
-                    events = schedule.load_txt(content)
-                elif isinstance(config, list):
-                    events = schedule.load_yaml(config)
-                elif isinstance(config, dict):
-                    events = schedule.load_yaml([config])
-                else:
-                    print("ERROR: Could not parse input file")
-            except errors.WeekplotError as e:
-                print("ERROR:", str(e), file=sys.stderr)
-        for e in events:
-            plot_event(ax, e)
+
+        config = yaml.safe_load(content)
+        try:
+            if isinstance(config, str):
+                events = schedule.load_txt(content)
+            elif isinstance(config, list):
+                events = schedule.load_yaml(config)
+            elif isinstance(config, dict):
+                events = schedule.load_yaml([config])
+            else:
+                print("ERROR: Could not parse input file")
+
+            for e in events:
+                plot_event(ax, e)
+        except errors.WeekplotError as e:
+            print("ERROR:", str(e), file=sys.stderr)
+
 
     fig.savefig(title, dpi=DPI)
 
